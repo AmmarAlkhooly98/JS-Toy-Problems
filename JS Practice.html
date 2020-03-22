@@ -1,0 +1,25 @@
+<html ng-app  >
+<head>
+  <title>JS Practice</title>
+  <script type="text/javascript" src="jsPractice.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+</head>
+<body>
+  <h1>Welcome Ammar!</h1>
+  <p>When completing exercises, you'll want to work with the console on <em>this page</em>. Whenever you make changes in the <code>jsPractice</code> file, do the following:</p>
+  <ul>
+      <li><strong>Save</strong> the <code>jsPractice</code> file.</li>
+    <li><strong>Refresh</strong> this page. Use CMD-R (Mac) or CTRL-R (Windows/Linux) to do so.</li>
+  </ul>
+
+
+  <div ng-init="firstName=''">
+
+    <p>Name: <input type="text" ng-model="firstName" placeholder="Input anything Here"></p>
+    <p>You wrote: {{ firstName }}</p>
+    
+    </div>
+
+
+</body>
+</html>

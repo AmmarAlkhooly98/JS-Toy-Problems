@@ -1860,7 +1860,16 @@ var down = function() {
 //code wars 8 kyu
 
 function removeEveryOther(arr) {
-	return arr.filter(function(elem, index) {
-		return index % 2 === 0;
-	});
+	for (var i = 1; i < arr.length; i++) {
+		arr.splice(i, 1);
+	}
+	return arr;
 }
+
+// debugger;
+let lang = 'js';
+
+(function() {
+	lang = 'python';
+})();
+console.log(lang);

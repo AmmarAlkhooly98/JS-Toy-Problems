@@ -1865,11 +1865,3 @@ function removeEveryOther(arr) {
 	}
 	return arr;
 }
-
-// debugger;
-let lang = 'js';
-
-(function() {
-	lang = 'python';
-})();
-console.log(lang);

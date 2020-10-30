@@ -1,6 +1,8 @@
 var arrayMax = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10000, 11, 12, 13, 14, 15, 333, 4444 ];
 
-function max(arr) {}
+function max(arr) {
+	return Math.max(...arrayMax);
+}
 
 function average(x, y) {
 	return (x + y) / 2;

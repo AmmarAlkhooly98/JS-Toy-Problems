@@ -1,2 +1,2 @@
 # JS-Toy-Problems
-Js toy problems from beginner to advanced level
+Js toy problems/challenging codeing questions from beginner to advanced level
